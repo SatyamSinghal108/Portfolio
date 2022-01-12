@@ -1,0 +1,364 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,500&display=swap");
+ 
+* {
+  margin: 0;
+  padding: 0;
+}
+.nav-item {
+  padding-left: 15px;
+}
+ 
+.navbar-brand {
+  cursor: pointer;
+  font-size: 35px;
+}
+ 
+.navbar .navbar-brand .x {
+  font-size: 30px;
+  padding: 3px;
+}
+ 
+.head {
+  height: 66vh;
+  border-bottom: 2px solid black;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  display: flex;
+  justify-content: center;
+}
+ 
+.head-text {
+  margin-top: 15vh;
+}
+ 
+.head-text .a {
+  font-size: 50px;
+  font-family: sans-serif;
+  text-align: center;
+  text-shadow: 2px -2px 0 #000, -2px -2px 0 #000;
+}
+ 
+.head-text .b {
+  font-size: 20px;
+  font-family: sans-serif;
+  text-align: center;
+}
+ 
+.head-text .c {
+  text-align: center;
+}
+ 
+.bton {
+  display: flex;
+  justify-content: center;
+}
+ 
+.bton .btn {
+  margin: 20px;
+}
+ 
+.about {
+  height: fit-content;
+  width: 100%;
+}
+ 
+.about .container h2 {
+  font-size: 45px;
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
+  padding-bottom: 15px;
+  font-family: "Playfair Display", serif;
+  color: rgb(46, 43, 43);
+  font-weight: bold;
+  margin: 10px;
+  text-shadow: 1px 2px 0 #000000, 1px 2px 0 #000000, 1px 2px 0 #000000,
+  1px 2px 0 #000000;
+}
+ 
+.about .container h2.title::before {
+  content: "";
+  position: absolute;
+  width: 80px;
+  top: 50px;
+  margin-left: -40px;
+}
+ 
+.about .container {
+  width: 100%;
+}
+ 
+.about .container .about-content {
+  display: flex;
+  justify-content: stretch;
+}
+ 
+.about .container .about-content .description {
+  padding-left: 50px;
+}
+ 
+.about .container .about-content img {
+  width: 50vh;
+  height: 70vh;
+  border: 5px solid black;
+  border-radius: 12px;
+}
+ 
+.content .imgs {
+  margin-top: 30px;
+  margin-left: 60px;
+  height: 50vh;
+  padding: 20px;
+  border: 3px solid gray;
+}
+ 
+.conts {
+  display: flex;
+}
+ 
+.proj {
+  height: fit-content;
+  padding: 30px;
+  background-color: grey;
+}
+ 
+.proj .tw {
+  font-size: 45px;
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
+  padding-bottom: 15px;
+  font-family: "Playfair Display", serif;
+  text-decoration: underline;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  margin: 10px;
+  text-shadow: 1px 2px 0 #000000, 1px 1px 0 #000000, 1px 1px 0 #000000,
+    1px 1px 0 #000000;
+}
+ 
+.proj .conts {
+  margin: 20px;
+}
+.proj .conts .card {
+  margin: auto;
+  padding: 10px 10px 0px 10px;
+  border-radius: 12px;
+}
+ 
+.proj .conts .card:hover {
+  transform: scale(1.1);
+}
+ 
+.SerExp {
+  height: 110vh;
+  padding: 20px;
+  display: flex;
+  background-color: rgb(97, 96, 96);
+}
+ 
+.SerExp .service{
+  padding: 20px;
+  width: 50%;
+}
+ 
+.SerExp .service .tw{
+  font-size: 45px;
+  padding-bottom: 15px;
+  padding-top: 0px;
+  text-align: center;
+  text-decoration: underline;
+  font-family: "Playfair Display", serif;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  text-shadow: 1px 2px 0 #000000, 1px 2px 0 #000000, 1px 2px 0 #000000,
+    1px 2px 0 #000000;
+}
+ 
+.SerExp .service .data .conts {
+  margin: 20px;
+}
+ 
+.SerExp .service .data .whole{
+  margin-top:50px ;
+}
+ 
+.SerExp .service .data .conts .card{
+     width: 30vh;
+     height: 30vh;
+     margin-left: 20px;
+     border: 3px solid white;
+     color: white;
+     text-align: center;
+}
+ 
+ 
+ 
+.SerExp .service .data{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+ 
+.SerExp .expinfo{
+  padding: 20px;
+  width: 50%;
+  border-right: 3px solid lightgray ;
+}
+ 
+.SerExp .expinfo img{
+  height: 60vh;
+  width: 60vh;
+  margin-top: 70px;
+}
+ 
+.SerExp .expinfo img:hover{
+  transform: scale(1.4);
+}
+ 
+.SerExp .expinfo .images{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+ 
+.SerExp .expinfo .tw {
+  font-size: 45px;
+  padding-bottom: 15px;
+  padding-top: 0px;
+  text-align: center;
+  text-decoration: underline;
+  font-family: "Playfair Display", serif;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  text-shadow: 1px 2px 0 #000000, 1px 2px 0 #000000, 1px 2px 0 #000000,
+    1px 2px 0 #000000;
+}
+ 
+.SerExp .info{
+    width:100vh;
+    height:20vh;
+}
+ 
+.end {
+  height: fit-content;
+  background-color: #343a40;
+}
+ 
+.end .social {
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+ 
+.end .social img {
+  width: 5.5vh;
+  height: 5.5vh;
+  margin-inline: 6px;
+  border: 2px solid grey;
+  border-radius: 30px;
+}
+ 
+.end .copyright {
+  color: rgb(128, 127, 127);
+  font-size: 12px;
+  text-align: center;
+  padding-bottom: 1px;
+}
+ 
+.Cnt {
+  height: fit-content;
+}
+ 
+.Cnt .form {
+  width: 60vh;
+  height: fit-content;
+  padding: 10px;
+  background-color: black;
+  border-radius: 10px;
+  border: 3px solid gray;
+}
+ 
+.Cnt .form label {
+  color: white;
+}
+ 
+.Cnt h3 {
+  font-size: 45px;
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
+  padding-bottom: 35px;
+  font-family: "Playfair Display", serif;
+  text-decoration: none;
+  color: rgb(46, 43, 43);
+  font-weight: bold;
+  margin: 10px;
+  text-shadow: 1px 2px 0 #000000, 1px 2px 0 #000000, 1px 2px 0 #000000,
+  1px 2px 0 #000000;
+}
+ 
+.Cnt .container {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 40px;
+}
+ 
+.Cnt .container .description{
+    padding-top: 50px;
+}
+ 
+.Cnt .container .tw #one{
+    color: red;
+    font-size: 30px;
+    font-weight: bold;
+    text-shadow: 1px 2px 0 #000000, 1px 2px 0 #000000, 1px 2px 0 #000000,
+    1px 2px 0 #000000;
+}
+ 
+.Cnt .container .tw #two{
+    color: rgb(167, 123, 12);
+    font-size: 20px;
+    font-weight: 600;
+    text-shadow: 1px 2px 0 yellowgreen, 1px 2px 0 yellowgreen, 1px 2px 0 yellowgreen,
+    1px 2px 0 yellowgreen;
+}
+ 
+ 
+.Cnt .container .tw #three{
+    color: rgb(167, 123, 12);
+    font-size: 20px;
+    font-weight: 600;
+    text-shadow: 1px 2px 0 yellowgreen, 1px 2px 0 yellowgreen, 1px 2px 0 yellowgreen,
+    1px 2px 0 yellowgreen;
+}
+ 
+.Cnt .container .tw #thre{
+    color: rgb(167, 123, 12);
+    font-size: 20px;
+    font-weight: 600;
+    text-shadow: 1px 2px 0 yellowgreen, 1px 2px 0 yellowgreen, 1px 2px 0 yellowgreen,
+    1px 2px 0 yellowgreen;
+}
+ 
+.Cnt .container .tw #four{
+    color: teal;
+    font-size: 20px;
+    font-weight: 500;
+    text-shadow: 1px 2px 0 navy, 1px 2px 0 navy, 1px 2px 0 navy,
+    1px 2px 0 navy;
+}
+ 
+ 
+.Cnt .container .tw #five{
+    color: black;
+    font-size: 16px;
+    font-weight: 500;
+}
+ 
+.Cnt .container .tw #six{
+    color:black;
+    font-size: 16px;
+    font-weight: 500;
+}
